@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pizza</title>
+</head>
+<body>
+    <h3>Please select pizza</h3>
+    <form action="router.php" method="post">
+    <select name="pizzaId" required>
+        <option disabled selected>Выберите пиццу</option>
+        <option value="3">Peperony</option>
+        <option value="1">Derevenskaya</option>
+        <option value="4">Gavayskaya</option>
+        <option value="2">Gribnaya</option>
+    </select>
+    <select name="sizeId" required>
+        <option disabled selected>Выберите размер</option>
+        <option value="1">21 см.</option>
+        <option value="2">26 см.</option>
+        <option value="3">31 см.</option>
+        <option value="4">45 см.</option>
+    </select>
+    <select name="sousId" required>
+        <option disabled selected>Выберите соус</option>
+        <option value="1">Sirniy</option>
+        <option value="2">Kislo-sladkiy</option>
+        <option value="3">Chesnochniy</option>
+        <option value="4">Barbequ</option>
+    </select>
+    <button type="submit" name="submit">Заказать</button>
+    </form>
+</body>
+</html>
